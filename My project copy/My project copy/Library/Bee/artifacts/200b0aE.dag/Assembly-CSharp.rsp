@@ -355,11 +355,14 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/ChangeScene.cs"
 "Assets/FPS_Movement.cs"
+"Assets/Game_Scene.cs"
 "Assets/Gun.cs"
 "Assets/GunShoot.cs"
 "Assets/MouseLook.cs"
+"Assets/RestartScreen.cs"
 "Assets/ScoreManager.cs"
 "Assets/Target.cs"
+"Assets/TimeScript.cs"
 -langversion:9.0
 
 /deterministic
