@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Target : MonoBehaviour
 {
-    public bool TargetPractice;
     public float health = 10f;
     public float defaulthealth;
 
@@ -22,15 +21,8 @@ public class Target : MonoBehaviour
     }
     void Die()
     { 
-        if (TargetPractice)
-        {
             health = defaulthealth;
-            gameObject.transform.position = new Vector3(Random.Range(-9, 9), Random.Range(4, 5), Random.Range(-10, 10));
-        }
-        else 
-        {
-            Destroy(gameObject);
-        }
-        Debug.Log("Target geschoten");
+            gameObject.transform.position = new Vector3(Random.Range(-5, 10), Random.Range(3, 6), Random.Range(10, 40));
+            FindObjectOfType<ScoreManager>().AddPoint();
     }
 }

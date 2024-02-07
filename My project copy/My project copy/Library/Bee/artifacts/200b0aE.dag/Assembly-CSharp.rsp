@@ -358,6 +358,7 @@
 "Assets/Gun.cs"
 "Assets/GunShoot.cs"
 "Assets/MouseLook.cs"
+"Assets/ScoreManager.cs"
 "Assets/Target.cs"
 -langversion:9.0
 
